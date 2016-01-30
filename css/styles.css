@@ -1,3 +1,48 @@
-body {
-  background-color: black;
+header {
+  margin-bottom: 3em;
+}
+
+h1 {
+  font-size: 7em;
+  font-family: 'Catamaran', sans-serif;
+  font-weight: 800;
+}
+
+h2 {
+  font-size: 7em;
+  font-family: 'Catamaran', sans-serif;
+  font-weight: 800;
+  margin-right: 2em;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+img {
+  float: left;
+  height: 100%;
+  width: auto;
+  padding-right: 1em;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  font-size: 2em;
+  padding-bottom: 2em;
+}
+
+}
+.live .col-md-4 .my-h2:hover {
+  color: #30AAE8;
+}
+
+.work .col-md-4 .my-h2:hover {
+  color: #30AAE8;
+}
+
+.code .my-h2 :hover {
+  color: #30AAE8;
+}
+.connect .my-h2 :hover {
+  color: #2684B5;
 }
