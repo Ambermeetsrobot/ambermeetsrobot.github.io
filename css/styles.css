@@ -1,5 +1,12 @@
-header {
-  margin-bottom: 3em;
+
+a {
+  color: #E80C7A;
+  font-weight:300;
+  target: _blank;
+}
+
+a:hover {
+  color: #E83D30;
 }
 
 h1 {
@@ -17,6 +24,10 @@ h2 {
   padding-top: 0px;
 }
 
+header {
+  margin-bottom: 3em;
+}
+
 img {
   float: left;
   height: 100%;
@@ -24,15 +35,59 @@ img {
   padding-right: 1em;
 }
 
+li {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  font-size: 2em;
+}
 p {
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
   font-size: 2em;
+}
+
+strong {
+  color: #FF5628;
+  font-weight:400;
+}
+
+
+.my-nav ul {
+  float: left;
+  list-style-type: none;
+  margin: 0;
+  padding-left: 0;
+  padding-bottom: 2em;
+  overflow: hidden;
+}
+
+.my-nav ul li {
+  float: left;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 2em;
+  padding-right: 2em;
+}
+
+.my-nav ul li a {
+  display: block;
+  color: #FF2863;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.my-nav li a:hover {
+  color: #E83D30;
+}
+
+.col-md-8 {
   padding-bottom: 2em;
 }
 
 }
-.live .col-md-4 .my-h2:hover {
+/*.live .col-md-4 .my-h2:hover {
   color: #30AAE8;
 }
 
@@ -40,9 +95,9 @@ p {
   color: #30AAE8;
 }
 
-.code .my-h2 :hover {
+.code .col-md-4 .my-h2 :hover {
   color: #30AAE8;
 }
-.connect .my-h2 :hover {
+.connect .col-md-4 .my-h2 :hover {
   color: #2684B5;
-}
+}*/
